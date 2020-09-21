@@ -1,0 +1,23 @@
+{
+  "name": "electron-fundamentals-class",
+  "version": "1.0.0",
+  "description": "plural vision electron fundamentals class",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martingardner/electron-fundamentals-class.git"
+  },
+  "author": "martingardnerii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martingardner/electron-fundamentals-class/issues"
+  },
+  "homepage": "https://github.com/martingardner/electron-fundamentals-class#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
