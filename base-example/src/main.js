@@ -7,7 +7,7 @@ const ipc = electron.ipcMain;
 
 let mainWindow;
 
-app.on("ready", (_) => {
+app.on("ready", () => {
   mainWindow = new BrowserWindow({
     height: 400,
     width: 400,
@@ -15,7 +15,7 @@ app.on("ready", (_) => {
 
   mainWindow.loadURL(`file://${__dirname}/countdown.html`);
 
-  mainWindow.on("closed", (_) => {
+  mainWindow.on("closed", () => {
     console.log("closed");
     mainWindow = null;
   });
